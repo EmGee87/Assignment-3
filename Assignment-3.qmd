@@ -29,3 +29,105 @@ output$distPlot <- renderPlot({
         main = 'Histogram of waiting times')
 })
 ```
+
+# Assignment (AE#3)
+
+Start Assignment
+
+-   **Due** Tuesday by 8am
+
+-   
+
+-   **Points** 20
+
+-   
+
+-   **Submitting** a text entry box or a file upload
+
+-   
+
+-   **File Types** doc, docx, and txt
+
+-   
+
+-   **Attempts** 0
+
+-   
+
+-   **Allowed Attempts** 3
+
+### Application Exercise (AE#3): Data Analysis and Visualization
+
+#### **Objectives**
+
+Students recognize the importance of cleaning common data errors so that others can analyze, share, re-use, and later preserve the data. Students also gain experience using common data cleaning, analysis, and visualization techniques.
+
+#### **Outcomes**
+
+1.  Students can explain why evaluating and cleaning data is important.
+
+2.  Students can strategize about the best ways to clean data.
+
+3.  Students can evaluate and choose tools for analyzing data.
+
+4.  Students can select and use appropriate tools to clean and analyze data.
+
+#### **Description**
+
+There are three parts to complete in this assignment. Task 1 requires students to use an open source software tool *(R or Python)* of their choice to clean data errors and prepare the data for Task 2. In Task 2, students will perform 1 or 2 different text analysis techniques and visualize the data. In Task 3, students will reflect on their experience of data analysis and cleaning performed in tasks 1 and 2.
+
+#### **Preparation**
+
+1\. This is a group assignment and all the students should contribute equally!
+
+2\. Everyone should make an account in [Posit Cloud.Links to an external site.](https://posit.cloud/login "Link") 
+
+3\. One of the group members should make a new repository for this assignment on their GitHub (add a draft ReadMe file, so the repo is not empty) and add their group members in that repository by using the collaborators feature in the Settings of the repo.
+
+4\. Another group member should Clone the GitHub repository for the assignment on Posit Cloud by pasting the assignment GitHub repo link. In the settings, change the **Access** from **Private** to **All Posit Cloud Users**. Add all your group members to the RCloud workspace to work collaboratively. 
+
+5\. Add a new Quarto (.qmd) file to your new collaborative Workspace on RCloud Posit.
+
+6\. You will write all your code with a 1-sentence description (with rendered output visualization) AND reflection in a quarto (.qmd) file. *Reminder: you can run Python code in a quarto file!*
+
+7\. **Sync your repository to GitHub** and **publish your .qmd file**.
+
+#### **Datasets (Choose any ONE)**
+
+***You can do both but you only need to submit one for this exercise*****:**
+
+1. [Seattle Public Library Circulation Data: ](https://canvas.ou.edu/courses/421565/files/124725436?wrap=1 "Seattle_Book_Checkouts_2010_2017-1.csv")[ Download Seattle Public Library Circulation Data:](https://canvas.ou.edu/courses/421565/files/124725436/download?download_frd=1)*This dataset contains the circulation data about the Seattle Public Library system from 2010-2017.*
+
+2. [Nobel Prize Winners:](https://canvas.ou.edu/courses/421565/files/124725502?wrap=1 "nobel-prize-winners-1.csv")[ Download Nobel Prize Winners:](https://canvas.ou.edu/courses/421565/files/124725502/download?download_frd=1)This dataset contains information about 957 Nobel Prize winners from 1901 to 2017. This information includes the Nobel laureate’s name, birth and death date (if applicable), birth and death location (plus **latitude and longitude coordinates** for the locations), the year they won the Nobel Prize, the category of the Nobel Prize, and the “motivation” for the Nobel Prize.
+
+#### **Instructions**
+
+#### **Task 1 Data Cleaning/Preparation \[5 Points\]**
+
+Students will choose **ONE** of the above datasets and **clean it** using one of the open-source tools of their choice *(R or Python).*
+
+#### **Task 2 Data Analysis and Visualization \[10 Points\]**
+
+There are various types of text analysis, including *burst detection, sentiment analysis, clustering, network analysis, and topic modeling*. For this assignment, we will focus on these five methods. After cleaning the data, your group will select one or two of these techniques to conduct the analysis. Here are the sample code to run these analyses:
+
+Student who chose R: [https://textmining-infopros.github.io/project/Links to an external site.](https://textmining-infopros.github.io/project/)
+
+Students who chose Python: [https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/04-Sentiment-Analysis.htmlLinks to an external site.](https://melaniewalsh.github.io/Intro-Cultural-Analytics/05-Text-Analysis/04-Sentiment-Analysis.html)
+
+#### **Task 3 Reflection \[5 Points\]**
+
+An important part of learning is to reflect on the experience. You have used at least two new techniques/processes in this assignment. Now, I would like you to reflect on your experience. Each question should be at **least one complete paragraph,** longer if necessary.
+
+1.  Explain in your own words the type of data you used and the activities you completed.
+
+2.  Describe your experience using your chosen programming language and any issues you encountered. For example, did you have any problems uploading the dataset in R and/or using topic modeling in R?
+
+3.  Do you think you will use this software and process again in the future? Explain your answer including potential projects that might be appropriate.
+
+4.  Which *data analysis* technique did you choose and why did you choose that one?
+
+#### **Submission**
+
+-   Share the link of your published Quarto file for this assignment
+
+-   Share the link of your GitHub repository for this assignment
